@@ -10,16 +10,21 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~12.1.0",
+    "@angular/animations": "^12.1.5",
     "@angular/common": "~12.1.0",
     "@angular/compiler": "~12.1.0",
     "@angular/core": "~12.1.0",
     "@angular/forms": "~12.1.0",
+    "@angular/localize": "~12.1.0",
     "@angular/platform-browser": "~12.1.0",
     "@angular/platform-browser-dynamic": "~12.1.0",
     "@angular/router": "~12.1.0",
+    "@ng-bootstrap/ng-bootstrap": "^11.0.0-beta.2",
+    "@popperjs/core": "^2.10.1",
+    "bootstrap": "^4.5.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
+    "web-animations-js": "^2.3.2",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
