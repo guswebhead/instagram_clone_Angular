@@ -2,47 +2,43 @@
   <div class="card-body">
     <div class="card-title"></div>
 
-    <form action="">
+    <form>
       <div class="form-group">
-        <label for="">Email</label>
-        <input
-          type="email"
-          class="form-control"
-          placeholder="instagram@email.com"
-        />
+        <input type="email" class="form-control" placeholder="E-mail" />
       </div>
 
       <div class="form-group">
-        <label for="">Nome</label>
-        <input type="text" class="form-control" />
+        <input type="text" class="form-control" placeholder="Nome completo" />
       </div>
 
       <div class="form-group">
-        <label for="">Usuário</label>
-        <input type="text" class="form-control" />
+        <input type="text" class="form-control" placeholder="Nome de usuário" />
       </div>
 
       <div class="form-group">
-        <label for="">Senha</label>
-        <input type="password" class="form-control" placeholder="*******" />
+        <input type="password" class="form-control" placeholder="Senha" />
       </div>
 
-      <button type="submit" class="btn btn-primary btn-block btn-sm">
+      <button type="submit" class="btn btn-primary btn-sm btn-block">
         Cadastre-se
       </button>
     </form>
     <hr />
 
     <p class="small text-center">
-      Ao cadastrar-se você concordar com nossos <b>Termos</b> e
-      <b> Política de Privacidade</b>.
+      Ao cadastrar-se, você concorda com nossos <b>Termos</b> e
+      <b>Política de Privacidade</b>.
     </p>
   </div>
 </div>
+
 <br />
 
 <div class="card" style="width: 20rem">
   <div class="card-body">
-    <p class="card-text">Tem uma conta? <a href="card-link">Faça login</a></p>
+    <p class="card-text">
+      Tem uma conta?
+      <a href="#" (click)="exibirPainelLogin()" class="card-link">Faça login</a>
+    </p>
   </div>
 </div>
